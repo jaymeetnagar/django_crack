@@ -1,7 +1,7 @@
 py_django_crack
 ===============
 
-By [Alexander Liu](https://github.com/xros)
+By [Jaymeet Nagar](https://github.com/jaymeetnagar)
 
 Crack the django password on the way. By default Django use pbkdf2 and sha256 method to encrypt user's password. Once get the password stored in the database table, you need to compare it with others if brute force cracking. It is recommended that you use hash table comparison. The tool 'rainbow crack' can generate rainbow hash tables while another tool 'hashcat' brute-force cracks password from a dictionary alive. Because django uses PBKDF2(Password-Based Key Derivation Function 2), it would take too long to generate a password. 
 
@@ -116,16 +116,13 @@ else:
 For example, you can try this known encrypted password for test.
 
 actual password: abc
-
 algorithm: pbkdf2_sha256
-
 iterations: 2000
-
 salt: good_salt
-
 secret: xDb4PWMWoQengkNyzh1IU3jGkZWK+BKManvkeJPunVQ=
 
 The full pass should be :   pbkdf2_sha256$2000$good_salt$xDb4PWMWoQengkNyzh1IU3jGkZWK+BKManvkeJPunVQ=
 
 Use password abc or xyz to test the phrase
-#### Happy hacking
+
+#### Happy hacking!
