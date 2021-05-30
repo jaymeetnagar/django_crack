@@ -8,8 +8,6 @@ Crack the django password on the way. By default Django use pbkdf2 and sha256 me
 ## jake
 * The ```jake.py``` is the password encryption implementation which is derived from django
 
-**Branch `py2`** is only for Python 2: [releases](https://github.com/xros/py_django_crack/releases/tag/py2fixed) [branch py2](https://github.com/xros/py_django_crack/tree/py2)
-
 **Branch `py3`** and `master` are for Python 3
 
 For Python3, you need install package promise first. `pip3 install promise` or `pip3 install -r requirments-py3.txt`
